@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from './Header'
 
-const About = () => {
+const Project = () => {
   return (
     <div>
         <Header/>
-        About
+        Project
         </div>
   )
 }
 
-export default About
+export default Project

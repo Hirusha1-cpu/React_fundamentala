@@ -168,6 +168,11 @@ overflow-x:hidden;
   font-size: 15px;
 }
 
+.AppContainer{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 
 @media only screen and (min-width: 768px) {
 

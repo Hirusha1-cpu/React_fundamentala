@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../App.css'
+import Header from './Header';
 
 
 const Contact = () => {
@@ -20,6 +21,7 @@ const Contact = () => {
     },[]);
   return (
     <div className='ContactContainer'>
+        <Header/>
         Contact Page
         <button onClick={()=> setThemeChange(pre=>pre?false:true)}>Change Theme</button>
         <div className='ContactBlock'>
