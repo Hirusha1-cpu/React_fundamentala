@@ -135,6 +135,40 @@ overflow-x:hidden;
   justify-content: space-between;
 }
 
+.ContactContainer{
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContactBlock{
+  width:90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  background-color: rgb(88, 70, 245);
+  gap: 25px;
+}
+.ContactBlockUnit{
+  background-color: rgb(229, 120, 218);
+  padding: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  transition: all 100ms ease-in;
+  border-radius: 7px;
+
+
+}
+.ContactBlockUnit :hover{
+  background-color: rgb(234, 242, 239);
+
+}
+.ContactBlockUnit h3{
+  font-size: 15px;
+}
+
+
 @media only screen and (min-width: 768px) {
 
   .header_container nav ul

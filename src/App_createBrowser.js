@@ -8,33 +8,33 @@ import User from './Components/User';
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <Home />
+    path:'/',
+    element:<Home/>
 
   },
   {
-    path: 'about',
-    element: <About />
+    path:'about',
+    element:<About/>
   },
   {
-    path: 'contact',
-    element: <Contact />
+    path:'contact',
+    element:<Contact/>
   },
-  {
-    path: 'contact/details',
-    element: <ContactDetails />
-  },
-  {
-    path: 'contact/:id',
-    element: <User />
-  }
+ {
+  path:'contact/details',
+  element:<ContactDetails/>
+ } ,
+ {
+  path:'contact/:id',
+  element:<User/>
+ }
 ])
 
 
 const App = () => {
   return (
     <div>
-      <RouterProvider router={router} />
+      <RouterProvider router={router}/>
     </div>
 
 
